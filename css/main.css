@@ -99,6 +99,9 @@ p{
     font-size: .8rem;
     line-height: normal;
 }
+a{
+    text-decoration: none;
+}
 .white-text{
     color: #ffffff;
 }
@@ -127,6 +130,40 @@ img{
 .slide-selected{
     opacity: 1;
     color: #224C98;
+}
+
+
+
+
+.section-1{
+    text-align: center;
+}
+.section-1 h3{
+    font-weight: normal;
+    color: #585858;
+}
+.section1-icons{
+    color: #224C98;
+    font-size: 4rem;
+}
+.section1-buttons{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    background-color: #224C98;
+    border-radius: .5rem;
+    color: #ffffff;
+}
+.registration{
+    margin-top: 2rem;
+}
+.absent{
+    margin-top: 4rem;
+}
+.tools{
+    margin-top: 4rem;
 }
 
 
