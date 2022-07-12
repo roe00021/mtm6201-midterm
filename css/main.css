@@ -141,6 +141,7 @@ img{
 }
 .header-text{
     flex: 2 auto;
+    text-align: center;
 }
 .flex-nav{
     flex: auto;
@@ -158,14 +159,6 @@ img{
 .slide-arrows{
     font-size: 2rem;
 }
-
-
-
-
-
-
-
-
 .grid-1{
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -240,19 +233,26 @@ img{
 /* Creates section 1 main content */
 .section-1{
     text-align: center;
+    background-color: #F8F8F8;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.section-1 h2{
+    margin-top: 1rem;
 }
 .section-1 h3{
     font-weight: normal;
     text-align: center;
     color: #585858;
+    margin: auto;
     margin-bottom: 2rem;
-    max-width: 15rem;
+    max-width: 48%;
 }
 .section1-icons{
     color: #224C98;
     font-size: 4rem;
 }
-.section1-buttons{
+.section-buttons{
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: .5rem;
@@ -270,6 +270,76 @@ img{
 }
 .tools{
     margin-top: 4rem;
+}
+/* styles section 2 */
+.section-2 h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+/* styles section 3 */
+.section-3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.section-3 h3{
+    color: #FFFFFF;
+    position: absolute;
+    left: 1rem;
+    top: 60%;
+    max-width: 50%;
+}
+.section-3 a{
+    position: absolute;
+    left: 1rem;
+    top: 64%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* creates section 4 */
+.section-4{
+    display: flex;
+    flex-direction: row;
+}
+.section-4 h4{
+    align-self: center;
+    flex: 2 auto;
+    margin-top: 2rem;
+}
+.section-4 a{
+    align-self: center;
+}
+/* styles section 5 */
+/* .section-5{
+    display: flex;
+    flex-direction: column;
+} */
+.event-cards{
+    display: flex;
+    flex-direction: row;
+}
+.section-5 div p:nth-child(1){
+    background-color: #000000;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .4rem;
+    text-align: center;
+    max-width: 12%;
+}
+.section-5 div p:nth-child(2){
+    background-color: #224C98;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .4rem;
+    text-align: center;
+    max-width: 12%;
+}
+.section-5 div p:nth-child(3){
+    font-weight: bold;
+    color: #224C98;
+}
+.section-5 div p:nth-child(4){
+    color: #585858;
 }
 /* Creates footer section */
 footer{
