@@ -417,3 +417,82 @@ input[type=submit]{
     font-weight: bold;
     max-width: 50%;
 }
+/* athletics page */
+.athletics-slider{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+}
+.a-g1-item1{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+.a-g1-item2{
+    position: absolute;
+    top: 1rem;
+    left: 3.8rem;
+}
+.a-g1-item3{
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+.a-g1-item4{
+    position: absolute;
+    left: .5rem;
+    top: 50%;
+}
+.a-g1-item5{
+    position: absolute;
+    left: 2rem;
+    top: 40%;
+}
+.a-g1-item6{
+    position: absolute;
+    left: 2rem;
+    top: 70%;
+}
+.a-g1-item8{
+    bottom: 0rem;
+    right: .5rem;
+}
+.a-g1-item9{
+    bottom: 0rem;
+    right: 2rem;
+}
+.a-g1-item10{
+    bottom: 0rem;
+    right: 3.5rem;
+}
+.a-g1-item11{
+    bottom: 0rem;
+    right: 5rem;
+}
+.a-g1-item12{
+    bottom: 0rem;
+    right: 6.5rem;
+}
+.a-g1-item13{
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+}
+/* athletics cards */
+.a-card{
+    border-radius: 3rem;
+    margin: 2rem;
+    box-shadow: 1rem 1rem 1rem #00000016;
+    padding-bottom: 3rem;
+}
+.a-image{
+    border-radius: 3rem 3rem 0rem 0rem;
+}
+.a-card h2{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.a-card a{
+    top: 10%;
+
+}
