@@ -623,6 +623,9 @@ input[type=submit]{
         display: grid;
         grid-template-columns: 10fr;
     }
+    .web-section h4{
+        font-size: 1.2rem;
+    }
     .section-2{
         grid-column: 1 / span 10;
         grid-row: 1;
@@ -631,13 +634,60 @@ input[type=submit]{
         grid-column: 1 / span 7;
         grid-row: 2;
     }
+    .section-3 img{
+        height: 30rem;
+    }
+    .section-3 h3 {
+        top: 62%;
+        max-width: 80%;
+    }
+    .section-3 a {
+        left: 1rem;
+        top: 70%;
+    }
     .section-4{
         grid-column: 8 / span 3;
         grid-row: 1;
+        align-self: end;
+    }
+    .section-4 a{
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .section-5{
         grid-column: 8 / span 3;
         grid-row: 2;
     }
-
+    .g1-item3{
+        top: 8rem;
+    }
+    .g1-item5{
+        top: 47%;
+    }
+/* athletics page */
+    .a-g1-item2 {
+        left: 4.4rem;
+    }
+    .athletics-cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .a-card{
+        padding-bottom: 1rem;
+        border-radius: 2rem;
+    }
+    .a-card h2{
+        font-size: 1.2rem;
+        padding-top: .5rem;
+        padding-left: 1rem;
+    }
+    .a-card a{
+        position: relative;
+        float: right;
+        margin-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        right: 1%;
+        font-size: .8rem;
+    }
 }
