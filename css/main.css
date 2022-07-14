@@ -526,12 +526,12 @@ input[type=submit]{
     }
     h2{
         margin: 0 0 1rem;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: bold;
     }
     h3{
         margin: 1rem 0;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         font-weight: bold;
     }
     h4{
@@ -580,13 +580,13 @@ input[type=submit]{
     }
     h3{
         margin: 1rem 0;
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: bold;
     }
     h4{
         padding-bottom: 1rem;
         padding-top: 2rem;
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         font-weight: bold;
     }
     p{
@@ -594,8 +594,50 @@ input[type=submit]{
         font-size: 1rem;
         line-height: normal;
     }
+    header{
+        background-color: #FFFFFF;
+    }
     .desktop-header{
-
+        color: #224C98;
+    }
+    .flex-nav{
+        color: #224C98;
+    }
+    .section-1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .section-1 h2{
+        font-size: 1.6rem;
+    }
+    .section-1 h3{
+        font-size: 1.1rem;
+    }
+    .absent{
+        margin-top: 2rem;
+    }
+    .tools{
+        margin-top: 2rem;
+    }
+    .web-section{
+        display: grid;
+        grid-template-columns: 10fr;
+    }
+    .section-2{
+        grid-column: 1 / span 10;
+        grid-row: 1;
+    }
+    .section-3{
+        grid-column: 1 / span 7;
+        grid-row: 2;
+    }
+    .section-4{
+        grid-column: 8 / span 3;
+        grid-row: 1;
+    }
+    .section-5{
+        grid-column: 8 / span 3;
+        grid-row: 2;
     }
 
 }
