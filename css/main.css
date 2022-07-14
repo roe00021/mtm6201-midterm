@@ -511,7 +511,28 @@ input[type=submit]{
         border-radius: .5rem;
         color: #ffffff;
     }
-
+/* animations */
+.swc-icon img:hover{
+    filter: brightness(85%);
+    animation: hoveranimation1 2s forwards;
+    }
+    @keyframes hoveranimation1 {
+        0% {
+            width: 2rem;
+            height: 2rem;
+        }
+        100% {
+            width: 3.2rem;
+            height: 3.2rem;
+        }
+    }
+footer a:hover{
+    filter: brightness(85%);
+    animation: hoveranimation2 1s forwards;
+    }
+@keyframes hoveranimation2 {
+    100% {font-size: 2.4rem;}
+}
 /* Tablet Viewport*/
 @media screen and (min-width: 600px){
     *{
