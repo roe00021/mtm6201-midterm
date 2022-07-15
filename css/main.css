@@ -142,6 +142,9 @@ img{
 .swc-icon{
     flex: 2 auto;
 }
+#web-logo{
+    display: none;
+}
 .header-text{
     flex: 2 auto;
     text-align: center;
@@ -397,7 +400,6 @@ input[type=submit]{
     padding-right: 3rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    margin-top: rem;
     background-color: #224C98;
     border-radius: .5rem;
     color: #ffffff;
@@ -511,6 +513,7 @@ input[type=submit]{
         border-radius: .5rem;
         color: #ffffff;
     }
+
 /* animations */
 .swc-icon img:hover{
     filter: brightness(85%);
@@ -526,6 +529,9 @@ input[type=submit]{
             height: 3.2rem;
         }
     }
+.section-buttons:hover{
+    filter: brightness(85%);
+}
 footer a:hover{
     filter: brightness(85%);
     animation: hoveranimation2 1s forwards;
@@ -618,6 +624,26 @@ footer a:hover{
     header{
         background-color: #FFFFFF;
     }
+    #small-logo{
+        display: none;
+    }
+    #web-logo{
+        display: block;
+    }
+    .swc-icon img:hover{
+        filter: brightness(85%);
+        animation: hoveranimation1 2s forwards;
+        }
+        @keyframes hoveranimation1 {
+            0% {
+                width: 5.5rem;
+                height: 5rem;
+            }
+            100% {
+                width: 6.5rem;
+                height: 6rem;
+            }
+        }
     .desktop-header{
         color: #224C98;
     }
@@ -680,7 +706,7 @@ footer a:hover{
         grid-row: 2;
     }
     .g1-item3{
-        top: 8rem;
+        top: 6rem;
     }
     .g1-item5{
         top: 47%;
@@ -698,7 +724,7 @@ footer a:hover{
         border-radius: 2rem;
     }
     .a-card h2{
-        font-size: 1.2rem;
+        font-size: .85rem;
         padding-top: .5rem;
         padding-left: 1rem;
     }
@@ -710,5 +736,20 @@ footer a:hover{
         padding-right: 1rem;
         right: 1%;
         font-size: .8rem;
+    }
+/* Contact us page */
+    .main{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .details-section{
+        grid-column: 1;
+        grid-row: 2;
+        margin: 1rem;
+    }
+    .map-section{
+        grid-column: 2;
+        grid-row: 2;
+        margin: 1rem;
     }
 }
