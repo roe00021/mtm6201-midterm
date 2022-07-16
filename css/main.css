@@ -613,6 +613,11 @@ footer a:hover{
         position: absolute;
         left: 3.2rem;
     }
+    /* pause button fot athletics page */
+    .a-g1-item2 {
+        position: absolute;
+        left: 4.4rem;
+    }
     /* home page section 1 icons */
     .section1-icons {
         color: #224C98;
