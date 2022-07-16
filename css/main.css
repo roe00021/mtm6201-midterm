@@ -78,6 +78,14 @@ header{
     background-color: #224C98;
     padding: 1rem;
 }
+/* styles page links */
+.flex-nav a{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.flex-nav a:hover{
+    filter: brightness(85%);
+}
 /* defines all text properties */
 h1{
     margin: 1rem 0;
@@ -654,6 +662,14 @@ footer a:hover{
     header{
         background-color: #FFFFFF;
     }
+    /* styles page links */
+    .flex-nav a{
+    color: #224C98;
+    font-weight: bold;
+    }
+    .flex-nav a:hover{
+    filter: brightness(85%);
+    }
     /* hides mobile and tablet logo and displays web logo */
     #small-logo{
         display: none;
@@ -682,6 +698,11 @@ footer a:hover{
     }
     .flex-nav{
         color: #224C98;
+    }
+    /* creates 3 column grid for footer */
+    .web-footer-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
     /* creates 3 column grid for section 1 */
     .section-1{
